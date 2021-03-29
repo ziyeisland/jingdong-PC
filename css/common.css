@@ -46,29 +46,29 @@
 }
 .header {
 	position: relative;
-	height: 105px;
+	height: 150px;
 }
 .logo {
 	position: absolute;
-	top: 25px;
+	top: 10px;
 	left: 0;
 	/*背景图片必须有大小*/
-	width: 178px;
-	height: 57px;
-	background: url(../images/logo.png) no-repeat ;
+	width: 134px;
+	height: 120px;
+	background: url(../images/logo.jpg) no-repeat ;
 }
 .logo a {
 	display: block;
 	/*overflow: hidden;*/
 	/*text-indent: -999px;*/
-	width: 178px;
-	height: 57px;
+	width: 134px;
+	height: 120px;
 	font-size: 0;
-	background: url(../images/logo.png) no-repeat ;
+	background: url(../images/logo.jpg) no-repeat;
 }
 .search {
 	position: absolute;
-	top: 25px;
+	top: 50px;
 	left: 348px;
 }
 .text {
@@ -93,7 +93,7 @@
 }
 .hotwords {
 	position: absolute;
-	top: 65px;
+	top: 90px;
 	left: 358px;
 }  
 .hotwords a {
@@ -101,7 +101,7 @@
 }
 .shopcar {
 	position: absolute;
-	top: 25px;
+	top: 50px;
 	right: 64px;
 	width: 138px;
 	height: 34px;
