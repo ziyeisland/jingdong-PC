@@ -52,3 +52,94 @@
     font-size: 14px;
     border: none;
 }
+
+.sk-list li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+
+.sk-con li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+}
+
+.sk-bd {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.sk-bd .sk-item {
+    float: left;
+    height: 458px;
+    width: 288px;
+    border: 1px solid transparent;
+    margin: 0 10px 12px 0;
+}
+
+.sk-bd .sk-item:hover {
+    border-color: #c81623;
+}
+
+.sk-title {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.sk-price {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+}
+
+.sk-price em {
+    font-size: 22px;
+    color: #e12228;
+    margin-right: 10px;
+}
+
+.sk-price del {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a4a4a4;
+}
+
+.sk-progress {
+    padding: 10px;
+}
+
+.sk-progress .bar {
+    display: inline-block;
+    width: 140px;
+    height: 10px;
+    border: 1px solid #e12228;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.sk-progress i,
+span {
+    color: #f24349;
+}
+
+.sk-buy {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #b1191a;
+    font-size: 20px;
+    border: 1px solid transparent;
+    padding: 10px;
+}
