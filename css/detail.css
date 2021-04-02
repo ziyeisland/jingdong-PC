@@ -74,7 +74,7 @@
 }
 
 .crumb-wrap a {
-    padding: 0 15px;
+    padding: 0 5px;
 }
 
 .photo .iphone {
@@ -149,8 +149,11 @@
     font-size: 12px;
 }
 
-.price {
+.top {
     background-color: #fee9eb;
+}
+
+.price {
     padding: 20px;
     color: #666;
 }
@@ -159,7 +162,6 @@
     color: #b1191a;
     font-size: 24px;
     margin-left: 15px;
-
 }
 
 .price a {
@@ -170,9 +172,7 @@
 
 .promotion {
     position: relative;
-    /* margin-top: 20px; */
     padding: 20px;
-    background-color: #fee9eb;
 }
 
 .promotion dt {
@@ -229,9 +229,10 @@
     margin-right: 8px;
 }
 
-.color  a.current {
+.color a.current {
     border-color: #b1191a;
 }
+
 .version a,
 .type a,
 .buy_type a,
@@ -242,4 +243,125 @@
     border: 1px solid #ededed;
     background-color: #f7f7f7;
     margin-right: 8px;
+}
+
+.btns button {
+    width: 220px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: #c81623;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pro-detail {
+    margin: 50px 0;
+}
+
+.pro-detail .aside {
+    width: 208px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.tab-list li {
+    float: left;
+    width: 103px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+}
+
+.second-tab {
+    border-left: 1px solid #ccc;
+}
+
+.tab-item li {
+    float: left;
+    width: 103px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    border-bottom: 1px dashed #ccc;
+}
+
+
+.tab-list .current {
+    color: #b1191a;
+    background-color: #fff;
+    border-bottom: 0;
+}
+
+.tab-con h3 {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+}
+
+.img-item li {
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.img-item li h5 {
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.aside-price {
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.img-item li a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin: 10px auto;
+}
+
+.detail {
+    width: 978px;
+    border: 1px solid #ccc;
+}
+
+.detail-list {
+    height: 40px;
+    line-height: 39px;
+    background-color: #f1f1f1;
+}
+
+.detail-list li {
+    float: left;
+    padding: 0 20px;
+}
+
+.detail-list li.current {
+    color: #fff;
+    background-color: #c81623;
+}
+
+.item-info {
+    padding: 20px 0 0 20px;
+}
+
+.more {
+    /* font-family: icomoon; */
+    float: right;
+    font-weight: 700;
 }
